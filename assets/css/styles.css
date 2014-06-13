@@ -1,24 +1,16 @@
-body {
-
-}
-
-#covertest {
+#cover_container {
 	width: 100%;
 	height: 100%;
 	background-color: transparent;
 }
 
-#bg {
+#cover_background {
 	position: absolute;
 	top: 0;
 	left: 0;
 	right: 0;
 	bottom: 0;
 	z-index: -1;
-}
-
-#cover_row {
-	/*margin: 0px;*/
 }
 
 .navbar {
@@ -47,56 +39,4 @@ body {
 
 .navbar .navbar-nav li a:hover {
 	/*color: #999;*/
-}
-
-#cover_container {
-	width: 100%;
-	height: 100%;
-	overflow: hidden;
-}
-
-#cover_overlay {
-    background: rgba(255, 255, 255, 0.3);
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: 1;
-    top: 0;
-}
-
-#cover_content_row {
-	position: absolute;
-	top: 60%;
-}
-
-#cover_content_container {
-    position: relative;
-    width: 100%;
-}
-
-#cover_content {
-    position: relative;
-    left: 8%;
-    background-color: rgba(0, 0, 0, 0.65);
-    width: 620px;
-    height: 120px;
-    z-index: 2;
-    padding-left: 20px;
-    padding-top: 20px;
-    padding-right: 10px;
-    padding-bottom: 5px;
-    border-radius: 10px;
-    box-shadow: 4px 4px 14px black;
-}
-
-#cover_title {
-    font-size: 48px;
-    color: white;
-    z-index: 3;
-}
-
-#cover_subtitle {
-    font-size: 24px;
-    color: white;
-    z-index: 3;
 }
